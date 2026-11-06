@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Book's official code (nested git repo — do not track)
+book_code/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Large datasets — track only small ones you want on GitHub
+datasets/*.csv
+datasets/*.parquet
+datasets/*.h5
+datasets/*.xlsx
+!datasets/.gitkeep
